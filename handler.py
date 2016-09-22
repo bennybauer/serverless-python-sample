@@ -1,5 +1,6 @@
 # get this file's directory independent of where it's run from
 import sys, os
+
 here = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.join(here, "./vendored"))
 
@@ -11,15 +12,16 @@ log.setLevel(logging.DEBUG)
 
 API_HOST = 'https://jsonplaceholder.typicode.com'
 
-def listPosts(event, context):
-  url = API_HOST + '/posts'
 
-  log.debug('calling ' + url)
-  return requests.get(url).json()
+def list_posts(event, context):
+    url = API_HOST + '/posts'
+
+    log.debug('calling ' + url)
+    return requests.get(url).json()
 
 
-def getPost(event, context):
-  url = API_HOST + '/posts/' + event['path']['id']
+def get_post(event, context):
+    url = API_HOST + '/posts/' + event['path']['id']
 
-  log.debug('calling ' + url)
-  return requests.get(url).json()
+    log.debug('calling ' + url)
+    return requests.get(url).json()

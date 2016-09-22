@@ -46,8 +46,8 @@ provider:
 #  artifact: my-service-code.zip
 
 functions:
-  listposts:
-    handler: handler.listPosts
+  listPosts:
+    handler: handler.list_posts
     events:
       - http:
           path: posts
@@ -56,8 +56,8 @@ functions:
 #      - schedule: rate(10 minutes)
 #      - sns: greeter-topic
 
-  getpost:
-    handler: handler.getPost
+  getPost:
+    handler: handler.get_post
     events:
       - http:
           path: posts/{id}
