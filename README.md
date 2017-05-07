@@ -26,24 +26,10 @@ The service has a dependency on external package (`requests`) and it exposes 2 R
 
 
 ## Deployment
-Create dependencies folder for packaging
 
-    pip install -t vendored -r requirements.txt
-
-And... deploy!
- 
 	sls deploy
-	
-### Invocation
-You can trigger a function: 
 
-	# Invoke function without input
-	sls invoke -f listposts
-	
-	# Provide input
-	sls invoke -f getpost -p event.json
-	
-or
+### Invocation
 
 	curl <host>/posts
 	curl <host>/posts/5
