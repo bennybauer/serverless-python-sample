@@ -1,0 +1,28 @@
+{
+  "name": "serverless-python-sample",
+  "version": "1.0.1",
+  "description": "A simple serverless python sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "python test.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennybauer/serverless-python-sample.git"
+  },
+  "keywords": [
+    "python",
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "author": "bennybauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bennybauer/serverless-python-sample/issues"
+  },
+  "homepage": "https://github.com/bennybauer/serverless-python-sample#readme",
+  "dependencies": {
+    "serverless-python-requirements": "^2.2.1"
+  }
+}
