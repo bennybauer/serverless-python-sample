@@ -21,7 +21,7 @@ The service has a dependency on external package (`requests`) and it exposes 2 R
 ## Development
 | **Step** | **Command** |**Description**|
 |---|-------|------|
-|  1. | `mkvirtualenv posts` | Create virtual environment (using [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) |
+|  1. | `mkvirtualenv posts` | Create virtual environment (using [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)) |
 |  2. | `pip install -r requirements.txt` | Install dependencies|
 
 
