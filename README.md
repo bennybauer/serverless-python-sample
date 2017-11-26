@@ -17,7 +17,7 @@ The service has a dependency on external package (`requests`) and it exposes 2 R
 |---|-------|------|
 |  1. | `npm install -g serverless` | Install Serverless CLI  |
 |  2. | `npm install` | Install Serverless dependencies  |
-|  3. | Set up an AWS account with admin permissions | [Documentation](https://github.com/serverless/serverless/blob/master/docs/02-providers/aws/01-setup.md)  |
+|  3. | Set up an AWS account with admin permissions | [Documentation](https://serverless.com/framework/docs/providers/aws/guide/credentials/)  |
 
 ## Development
 | **Step** | **Command** |**Description**|
